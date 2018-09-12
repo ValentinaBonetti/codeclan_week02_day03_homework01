@@ -1,0 +1,26 @@
+1. How similar was your plan to the final program?
+Did you have to digress from your plan as the program developed?
+>
+The plan is quite similar to the final result. The only difference is
+that, from the customer class, we removed the "update_drunkness" method
+and we added the "buy_food" method.
+
+
+Does each of your classes follow the Single Responsibility principle?
+Or are any of your classes doing too much?
+>
+I think that the classes are quite balanced and do what we would expect
+in real life (in terms of responsability).
+
+
+Did you practice TDD?
+>
+Yes, we wrote tests before any implementation.
+
+
+Are each of your methods tested?
+Did you find anything difficult to test?
+>
+Yes (we just didn't test all the variables declared with attr_),
+all quite smooth. A bit tricky using objects as keys in ashes, but
+we just needed to use the syntax => instead of : and all worked.
